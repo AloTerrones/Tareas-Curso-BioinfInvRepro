@@ -1,6 +1,6 @@
-#RADseq para filogenias (laboratorio)
+# RADseq para filogenias (laboratorio)
 
-##1. ¿Cuáles son las principales variantes del método de laboratorio para generar mis datos y cuándo es más útil cada una?
+## 1. ¿Cuáles son las principales variantes del método de laboratorio para generar mis datos y cuándo es más útil cada una?
 Al conjunto de métodos utilizados para secuenciar una reducida pero consistente representación del genoma se conoce como secuenciación de DNA asociado a sitio de restricción (RADseq) (Bleidorn, 2017). Se emplea endonucleasas de restricción, que son enzimas que reconocen un patrón específico de bases en las secuencias de DNA y fragmentan la doble hélice en sitios específicos de cuatro a ocho nucleótidos: las dianas de restricción. Esta capacidad de las endonucleasas de restricción para reconocer secuencias específicas de RADseq es la base de la técnica RADseq. 
 Los marcadores RAD se implementaron por primera vez en 2007 usando microarreglos (Miller *et al*., 2007) y posteriormente en 2008 fueron adaptados para Next Generation Sequencing ( Baird *et al*., 2008; Bleidorn, 2017; ). En la actualidad el término RADseq se usa para describir varios métodos similares (Andrews *et al*., 2016, Bleidorn, 2017):
 
@@ -28,7 +28,7 @@ La secuenciación de genomas eucariontes completos para inferir filogenias sigue
 
 
 
-##2. ¿Qué limitantes y posibles fuentes de error puede presentar este método (en el laboratorio o la bioinformática)? ¿Qué puede hacerse para amortiguarlos?
+## 2. ¿Qué limitantes y posibles fuentes de error puede presentar este método (en el laboratorio o la bioinformática)? ¿Qué puede hacerse para amortiguarlos?
 
 * **DNA genómico de bajo peso molecular**
 
@@ -72,7 +72,7 @@ En la siguiente figura se muestra la filogenia obtenida para doce especies de Dr
 ![Filogenia de *Drosophila* (Cariou *et al*., 2013)](Resumen-EquipoRADFilogeniasLabo-Fig6.png)
 
 
-##3. ¿El muestreo requiere algún diseño específico? Por ejemplo, si se quiere secuenciar un genoma de novo ¿qué individuo sería ideal? Si trabajo con trascriptomas, ¿cómo afecta el tejido, la edad, las condiciones, etc. mi muestreo?
+## 3. ¿El muestreo requiere algún diseño específico? Por ejemplo, si se quiere secuenciar un genoma de novo ¿qué individuo sería ideal? Si trabajo con trascriptomas, ¿cómo afecta el tejido, la edad, las condiciones, etc. mi muestreo?
 
 * **Se requiere DNA limpio, intacto y de alta calidad**
 
