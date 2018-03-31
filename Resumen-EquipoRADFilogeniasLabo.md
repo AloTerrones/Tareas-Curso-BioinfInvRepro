@@ -16,15 +16,15 @@ Los marcadores RAD se implementaron por primera vez en 2007 usando microarreglos
 
 
 ![Los diferentes métodos de RADseq (Andrews *et al*., 2016)](Resumen-EquipoRADFilogeniasLabo-Fig1.png)
-*Los diferentes métodos de RADseq. Tomado de Andrews *et al*., 2016)*
+*Los diferentes métodos de RADseq. Tomado de Andrews *et al*., 2016*
 
 ![Comparación entre los diferentes métodos de RADseq (Puritz *et al*., 2014)](Resumen-EquipoRADFilogeniasLabo-Fig2.png)
-*Comparación entre los diferentes métodos de RADseq. Tomado de  Puritz *et al*., 2014*
+*Comparación entre diferentes métodos de RADseq. Tomado de  Puritz *et al*., 2014*
 
 La secuenciación de genomas eucariontes completos para inferir filogenias sigue siendo costosa y lento. La secuenciación de genomas mitocondriales es más asequible, pero los árboles pueden ser engañosos debido a la introgresión y la heteroplasmia. Por lo tanto, los métodos RADseq parecen ser los más adecuados para generar reconstrucciones filogenéticas (Cariou *et al*., 2013, Cruaud *et al*., 2014). Por ejemplo en la siguiente figura podemos ver en la topología a partir de secuenciación Sanger posible introgresión (líneas punteadas) y algunos peines, además se observa que con el empleo de RADseq tan solo es aproximadamente tres veces más de tiempo y presupuesto a comparación con Sanger. 
 
 
-![Filogenia obtenida de Cruaud *et al*., 2014](Resumen-EquipoRADFilogeniasLabo-Fig3.png)
+![Filogenia obtenida de Cruaud *et al*., 2014](Resumen-EquipoRADFilogeniasLabo-Fig3.png) 
 *Filogenia obtenida de Cruaud *et al*., 2014*
 
 
@@ -52,7 +52,7 @@ Puritz *et al*. (2014) sugieren el uso de métodos “PCR-free” (ezRAD) para e
 
 El promedio de cobertura de secuenciación por locus por individuo está dado por la siguiente fórmula: 
 
-![Formula de la cobertura (Cariou et al., 2013)](Resumen-EquipoRADFilogeniasLabo-Fig4.png)
+![Formula de la cobertura (Cariou et al., 2013)](Resumen-EquipoRADFilogeniasLabo-Fig4.png) 
 *Formula de la cobertura. Tomado de Cariou *et al*., 2013*
 
 **R**: número total de reads, **N**: número de individuos incluidos en la librería, **Si**: número de sitios de restricción en el genoma del individuo **i**. 
@@ -63,7 +63,7 @@ Un incremento en el tamaño del pool ocasiona un un menor costo de secuenciació
 
 Dependiendo de la pregunta de estudio se debe elegir la(s) enzimas(s). La elección de la enzima de restricción se basa en varios parámetros, como la frecuencia deseada de los sitios de RAD en todo el genoma, el contenido de GC, la profundidad de cobertura necesaria y el tamaño del genoma (Etter *et al*., 2011; Cariou *et al*., 2013). En la siguiente figura se puede observar que los diferentes grupos de organismos tienen distintos porcentajes de contenido de GC.
 
-![(Davey *et al*., 2011)](Resumen-EquipoRADFilogeniasLabo-Fig5.png)
+![(Davey *et al*., 2011)](Resumen-EquipoRADFilogeniasLabo-Fig5.png) 
 *Tomado de Davey *et al*., 2011*
 
 Por ejemplo en un estudio filogenético de 12 especies de *Drosophila*, se determinó usar la enzima Sbf1, una enzima de corte raro debido a su sitio de restricción de 8 bp de longitud y rico en GC y por tanto cede en el menor número de sitios de restricción por genoma. Esta propiedad es valiosa para estudios donde una gran cantidad de especímenes son más importantes que una gran cantidad de loci por genoma (Cariou *et al*., 2013).
@@ -72,7 +72,7 @@ Por ejemplo en un estudio filogenético de 12 especies de *Drosophila*, se deter
 
 En la siguiente figura se muestra la filogenia obtenida para doce especies de Drosophila realizada con reads de 100 pb, se observa una topología precisa. En contraste, también se realizaron pruebas filogenéticas con reads cortos (50 pb) y se encontraron errores (posición incorrecta de una especie) así como bajos soporte en los nodos más ancestrales. Este apoyo deficiente para los nodos profundos sugiere que los reads cortos deberían usarse para resolver filogenias de corta escala (Cariou *et al*. 2013).
 
-![Filogenia de *Drosophila* (Cariou *et al*., 2013)](Resumen-EquipoRADFilogeniasLabo-Fig6.png)
+![Filogenia de *Drosophila* (Cariou *et al*., 2013)](Resumen-EquipoRADFilogeniasLabo-Fig6.png) 
 *Filogenia de *Drosophila*. Tomado de Cariou *et al*., 2013*
 
 
@@ -86,7 +86,7 @@ Cuando trabajar con muestras de ADN muy degradadas es la única opción, se ha e
 
 En la siguiente figura se muestran geles de agarosa de DNA de . En A es DNA extraído inmediatamente después de la toma de sangre. En B es DNA extraído inmediatamente después de la toma del tejido muscular. En C es DNA extraído de músculo después de 12 horas de incubación a temperatura ambiente. En D después de 48 horas de incubación y E después de 96 horas. Se puede observar que conforme mayor tiempo de incubación a temperatura ambiente, se obtiene DNA más degradado (Graham *et al*., 2015).
 
-![Geles de agarosa de DNA (Graham *et al*., 2015)](Resumen-EquipoRADFilogeniasLabo-Fig7.png)
+![Geles de agarosa de DNA (Graham *et al*., 2015)](Resumen-EquipoRADFilogeniasLabo-Fig7.png) 
 *Geles de agarosa de DNA. Tomado de Graham *et al*., 2015*
 
 * **Cuantificación precisa de DNA**
